@@ -51,7 +51,8 @@ button {
     border: none;
     outline: none;
     border-radius: 1em;
-    margin: 0.2em;
+    width: 35%;
+    margin: 0.4em;
     padding: 1em;
     background-color: rgb(235, 235, 235);
 }
@@ -70,7 +71,8 @@ button {
     border: none;
     outline: none;
     border-radius: 1em;
-    margin: 0.2em;
+    width: 35%;
+    margin: 0.4em;
     padding: 1em;
     background-color: rgb(235, 235, 235);
 }
