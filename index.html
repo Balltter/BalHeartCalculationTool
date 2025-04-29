@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>いいねの数だけ〇〇膨らませるタグ計算ツール</title>
+    <link href="style.css" rel="stylesheet">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self';">
+</head>
+
+<body>
+    <header>いいねの数だけ風船膨らませるタグ計算ツール</header>
+    <div class="main">
+        <div class="sets">
+            <input type="number" id="setreply" name="setreply" placeholder="1返信">
+            <input type="number" id="setrepost" placeholder="1リポスト">
+            <input type="number" id="setheart" placeholder="1いいね">
+            <input type="number" id="setbookmark" placeholder="1ブックマーク">
+            <input type="number" id="setview" placeholder="1閲覧数">
+            <p>各1アクションを何個とするかの設定です。</p>
+        </div>
+
+        <div class="nums">
+            <input type="number" id="reply" placeholder="返信">
+            <input type="number" id="repost" placeholder="リポスト">
+            <input type="number" id="heart" placeholder="いいね">
+            <input type="number" id="bookmark" placeholder="ブックマーク">
+            <input type="number" id="view" placeholder="閲覧数">
+            <p>各アクションを入力する欄です。</p>
+        </div>
+        <h1 id="Result" class="Result">未計算</h1>
+        <small id="Result2" class="Result Center">計0個でした！♻️リポスト:0個 ♥️いいね:0個 🔖ブクマ:0個</small>
+        <button class="Center" id="run">計算</button>
+        <footer>
+            <p>&copy; 2025 Balloon_AKN<br><a href="https://x.com/Balloon_AKN">作者X</a><br>当サイトのご使用は自己責任でお願いします。</p>
+        </footer>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
